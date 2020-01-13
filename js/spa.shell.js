@@ -1,5 +1,5 @@
 spa.shell = (function () {
-    const configMap = {
+    var configMap = {
         main_html: String()
           + '<div class="spa-shell-head">'
           + '<div class="spa-shell-head-logo"></div>'
@@ -13,6 +13,7 @@ spa.shell = (function () {
           + '<div class="spa-shell-foot"></div>'
           + '<div class="spa-shell-chat"></div>'
           + '<div class="spa-shell-modal"></div>'
+          + 'テスト'
     },
     stateMap = { $container : null},
     jqueryMap = {},

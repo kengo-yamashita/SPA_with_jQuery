@@ -1,10 +1,6 @@
-const spa = (function (){
-    const initModule = ($container) => {
-        $container.html(
-            '<h1 style="display:inline-block; margin:25px;">'
-            + 'hello world!'
-            + '</h1>'
-        );
+var spa = (function (){
+    var initModule = ($container) => {
+        spa.shell.initModule($container);
     };
 
     return { initModule: initModule};
